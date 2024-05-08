@@ -593,3 +593,71 @@ h1 {
     transform: scale(1.1);
     /* Aumento de tamaño al pasar el cursor */
 }
+
+html {
+    font-size: 16px;
+    /* Ajusta según tus preferencias */
+}
+
+/* Ajusta el tamaño de fuente de acuerdo con el tamaño de la pantalla */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+        /* Disminuye el tamaño de fuente para pantallas más pequeñas */
+    }
+
+    /* Ajusta el tamaño del cuerpo */
+    body {
+        font-size: 1rem;
+        /* Reajusta el tamaño de fuente base para dispositivos móviles */
+    }
+
+    /* Ajusta el tamaño de la imagen principal */
+    .main img {
+        width: 250px;
+        /* Redimensiona la imagen principal para dispositivos móviles */
+        height: auto;
+        /* Mantiene la proporción de la imagen */
+    }
+
+    /* Ajusta el tamaño de las tarjetas en el portafolio */
+    .card {
+        width: 100%;
+        /* Haz que las tarjetas ocupen todo el ancho disponible */
+        margin: 1em 0;
+        /* Ajusta el margen vertical */
+    }
+
+    /* Ajusta el tamaño de la imagen de contacto */
+    .contact-section img {
+        width: 100%;
+        /* Haz que la imagen de contacto ocupe todo el ancho disponible */
+        height: auto;
+        /* Mantiene la proporción de la imagen */
+    }
+
+    /* Ajusta el tamaño de los formularios de contacto */
+    .form-group {
+        width: 100%;
+        /* Haz que los formularios ocupen todo el ancho disponible */
+    }
+
+    /* Ajusta el tamaño del botón de envío del formulario de contacto */
+    .form-group .btn-submit {
+        width: 100%;
+        /* Haz que el botón de envío ocupe todo el ancho disponible */
+    }
+
+    /* Ajusta el tamaño de los elementos en la sección del pie de página */
+    .footer-content h2,
+    .footer-content h5 {
+        font-size: 2em;
+        /* Reduce el tamaño de fuente en el pie de página para dispositivos móviles */
+    }
+
+    /* Ajusta el tamaño de los íconos de redes sociales */
+    .sotial-networks i {
+        font-size: 1.2em;
+        /* Reduce el tamaño de los íconos de redes sociales */
+    }
+}
